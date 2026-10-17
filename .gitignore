@@ -1,0 +1,49 @@
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ==========================================
+# Frontend Logs & Dependencies
+# ==========================================
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Dependencies and Build Outputs
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
+# ==========================================
+# Future Backend (Optional Placeholders)
+# ==========================================
+backend/node_modules/
+backend/.env*
+
+# ==========================================
+# Global Project Security & Environment
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Global Editor directories and files
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
